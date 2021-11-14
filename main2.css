@@ -1,0 +1,122 @@
+body{
+    background-image: url("images/js배경1.png");
+    background-size: 1535px 720px;
+}
+h1{
+    /*text-align: center;*/
+    color:white;
+}
+div{
+    position: absolute;
+}
+.menu{
+    background-color: lightpink;
+    border-radius : 30px 30px 30px 30px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    left : 400px;
+    
+}
+
+button{
+    left: 800px;
+    background:#1AAB8A;
+    color:#fff;
+    border:none;
+    position:relative;
+    height:50px;
+    font-size:1.6em;
+    padding:0 2em;
+    cursor:pointer;
+    transition:800ms ease all;
+    outline:none;
+}
+button:hover{
+    background:#fff;
+    color:#1AAB8A;
+}
+button:before,button:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #1AAB8A;
+    transition:400ms ease all;
+}
+button:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+}
+button:hover:before,button:hover:after{
+    width:100%;
+    transition:800ms ease all;
+}
+
+.box1{
+    width: 1130px;
+    height: 480px;
+    outline: 4px solid honeydew;
+    /*z-index:1;*/
+    top: 110px;
+    left: 200px;
+}
+.text{
+    left : 77px;
+    width : 950px;
+    height: 27px;
+    outline: 4px solid rgb(118, 24, 146);
+}
+.intext{
+    left : 77px;
+    width : 950px;
+    height: 27px;
+}
+input[type=text]{
+    border: 2px solid skyblue;
+    border-radius:5px;
+    width: 950px;
+    font-size: 120%;
+    /*background-color: red;*/
+}
+#t8>input[type=text]{
+    background-color: orangered;
+}
+#t1{
+    top: 17px;
+    
+}
+#t2{
+    top: 60px;
+    background-color: red;
+}
+#t3{
+    top: 110px;
+}
+#t4{
+    top: 152px;
+}
+#t5{
+    top: 212px;
+}
+#t6{
+    top: 255px;
+}
+#t7{
+    top: 310px;
+}
+#t8{
+    top: 357px;
+}
+#t9{
+    top: 410px;
+}
+#t10{
+    top: 447px;
+}
