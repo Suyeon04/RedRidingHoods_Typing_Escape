@@ -5,137 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>빨간모자의 타자 탈출기</title>
-    <style>
-        body{
-            background-image: url("images/js배경1.png");
-            background-size: 1535px 720px;
-            /*새로고침*/
-        }
-        h1{
-            /*text-align: center;*/
-            color:white;
-        }
-        div{
-            position: absolute;
-        }
-        .menu{
-            background-color: lightpink;
-            border-radius : 30px 30px 30px 30px;
-            width: 150px;
-            height: 50px;
-            text-align: center;
-            display:inline-block;
-        }
-        .box1{
-            width: 1130px;
-            height: 480px;
-            outline: 4px solid honeydew;
-            /*z-index:1;*/
-            top: 110px;
-            left: 200px;
-        }
-        .text{
-            left : 77px;
-            width : 950px;
-            height: 27px;
-            outline: 4px solid rgb(118, 24, 146);
-        }
-        .intext{
-            left : 77px;
-            width : 950px;
-            height: 27px;
-        }
-        input[type=text]{
-            border: 2px solid skyblue;
-            border-radius:5px;
-            width: 950px;
-            font-size: 120%;
-            /*background-color: red;*/
-        }
-        #t8>input[type=text]{
-            background-color: orangered;
-        }
-        #t1{
-            top: 17px;
-            
-        }
-        #t2{
-            top: 60px;
-            background-color: red;
-        }
-        #t3{
-            top: 110px;
-        }
-        #t4{
-            top: 152px;
-        }
-        #t5{
-            top: 212px;
-        }
-        #t6{
-            top: 255px;
-        }
-        #t7{
-            top: 310px;
-        }
-        #t8{
-            top: 357px;
-        }
-        #t9{
-            top: 410px;
-        }
-        #t10{
-            top: 447px;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css" />
 </head>
 <body>
     <h1>빨간모자의 타자 탈출기</h1>
-    <div class="menu" id="goal">
-        목표타수 : 300
-    </div>
-    <div class="menu">
-        정확도 100%
-    </div>
-    <div class="menu">
-        현재타수 290
-    </div>
     <div class="box">
-        <div class="box1">
-            <div class="text" id="t1">
-                <!--타자 글자-->
+        <div class="menu" id="goal">
+            <p>타수 : <input type="text"></p>
+        </div>
+        <a href="main2.html">
+            <div class="menu">
+                <p>Start</p>
             </div>
-            <div class="intext" id="t2">
-                <input type="text">
-            </div>
-
-            <div class="text" id="t3">
-                <!--타자 글자-->
-            </div>
-            <div class="intext" id="t4">
-                <input type="text">
-            </div>
-
-            <div class="text" id="t5">
-                <!--타자 글자-->
-            </div>
-            <div class="intext" id="t6">
-                <input type="text">
-            </div>
-
-            <div class="text" id="t7">
-                <!--타자 글자-->
-            </div>
-            <div class="intext" id="t8">
-                <input type="text">
-            </div>
-
-            <div class="text" id="t9">
-                <!--타자 글자-->
-            </div>
-            <div class="intext" id="t10">
-                <input type="text">
-            </div>
+        </a>
+        <div class="box2">
+            <p id="codetitle">코드선택</p>
+            <ul class="codelist">
+                <li><p>DepthFirstSearch_1</p></li>
+                <li><p>DepthFirstSearch_2</p></li>
+                <li><p>DepthFirstSearch_3</p></li>
+                <li><p>DepthFirstSearch_4</p></li>
+                <li><p>DepthFirstSearch_5</p></li>
+            </ul>
         </div>
     </div>
 </body>
