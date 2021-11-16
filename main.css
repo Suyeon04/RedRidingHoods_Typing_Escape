@@ -1,6 +1,7 @@
 body{
     background-image: url("images/js배경1.png");
-    background-size: 1535px 720px;
+    background-size: 100% 720px; 
+    background-repeat: no-repeat; /*이미지 반복 X*/
 }
 h1{
     
@@ -8,7 +9,7 @@ h1{
     color:white;
 }
 .box{
-    background-color: cornflowerblue;
+    background-color: rgba(130, 187, 240, 0.932);
     width: 600px;
     height: 400px;
     outline: 4px solid honeydew;
@@ -17,10 +18,11 @@ h1{
     margin-left: 30%;
 }
 .box2{
+    overflow: scroll;
     outline: 4px solid honeydew;
     width: 500px;
-    height: 280px;
-    margin-top: 5%;
+    height: 250px;
+    /* margin-top: 5%; */
     margin-left: 50px;
 }
 #codetitle{
@@ -28,6 +30,9 @@ h1{
     text-align: center;
     color:white;
     height: 30px;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 50px;
 }
 .menu{
     background-color: white;
@@ -40,12 +45,21 @@ h1{
     left : 130px;
     top : 20px;
 }
+#Button{
+    background-color: rgba(197, 100, 197, 0.877);
+    border-color: whitesmoke;
+    top: 15px;
+    color:white;
+}
 input[type=text]{
     border: none;
     /* border-radius:5px; */
     width: 50px;
     font-size: 120%;
     /*background-color: red;*/
+}
+ul{
+    list-style: none;
 }
 ul.codelist li, ol.codelist li {
     padding: 5px 0px 5px 5px;
