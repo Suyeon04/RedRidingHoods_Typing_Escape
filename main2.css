@@ -1,10 +1,12 @@
 body{
     background-image: url("images/js배경1.png");
-    background-size: 1535px 720px;
+    background-size: 100% 720px; 
+    background-repeat: no-repeat; /*이미지 반복 X*/
 }
 h1{
     /*text-align: center;*/
     color:white;
+    display:inline;
 }
 div{
     position: absolute;
@@ -17,12 +19,13 @@ div{
     text-align: center;
     display:inline-block;
     position:relative;
-    left : 400px;
+    left : 200px;
     
 }
 
 button{
-    left: 800px;
+    left: 300px;
+    margin-top: 18px;
     background:#1AAB8A;
     color:#fff;
     border:none;
