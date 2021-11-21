@@ -1,6 +1,8 @@
-let div2 = document.getElementsByClassName("div2");
+const div2 = document.getElementsByClassName("div2");
+const goal = document.querySelector('.goal');
 
 let value = 0;
+let goal_1 = 0;
 function handleClick(event) {
   console.log(event.target);
   // console.log(this);
@@ -27,5 +29,22 @@ function init() {
     div2[i].addEventListener("click", handleClick);
   }
 }
+goal.oninput = function() {
+  goal_1 = goal.value;
+};
 
+
+function start()  {
+  if(value == 0){
+    alert("코드를 선택해주세요")
+  }
+  else if(goal_1 == 0){
+    alert("목표 타수를 설정해주세요")
+  }
+  else{
+    localStorage.setItem("goal",goal_1);
+    location.href = "../html/main2.html"
+  }
+    
+}
 init();

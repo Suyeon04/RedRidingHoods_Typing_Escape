@@ -1,6 +1,6 @@
 body{
     background-image: url("../images/js배경1.png");
-    background-size: 100% 720px; 
+    background-size: 1600px 720px; 
     background-repeat: no-repeat; /*이미지 반복 X*/
 }
 @font-face {
@@ -15,7 +15,11 @@ h1{
     font-size: 50px;
     margin-top: 60px;
     color: #D7818A;
-    text-shadow: #484A46 1px 1px,#484A46 -0px 0px,#484A46 -1px 1px,#484A46 -2px 2px,#484A46 -3px 3px,#484A46 -4px 4px,#484A46 -5px 5px,#484A46 -6px 6px,#484A46 -7px 7px,#484A46 -8px 8px,#484A46 -9px 9px,#484A46 -10px 10px,#484A46 -11px 11px,#484A46 -12px 12px,#484A46 -13px 13px,#484A46 -14px 14px,#484A46 -15px 15px,#484A46 -16px 16px,#484A46 -17px 17px,#484A46 -18px 18px,#484A46 -19px 19px,#484A46 -20px 20px,#484A46 -21px 21px,#484A46 -22px 22px,#484A46 -23px 23px,#484A46 -24px 24px,#484A46 -25px 25px,#484A46 -26px 26px,#484A46 -27px 27px,#484A46 -28px 28px,#484A46 -29px 29px;
+    text-shadow: #484A46 0px 0px,#484A46 -0px 0px,#484A46 -1px 1px,#484A46 -2px 2px,#484A46 -3px 3px,#484A46 -4px 4px, 
+    #484A46 -5px 5px,#484A46 -6px 6px,#484A46 -7px 7px,#484A46 -8px 8px,#484A46 -9px 9px,#484A46 -10px 10px,
+    #484A46 -11px 11px,#484A46 -12px 12px,#484A46 -13px 13px,#484A46 -14px 14px,#484A46 -15px 15px,
+    #484A46 -16px 16px,#484A46 -17px 17px,#484A46 -18px 18px,#484A46 -19px 19px,#484A46 -20px 20px;
+    
 }
 .box{
     background-color: rgba(130, 187, 240, 0.932);
@@ -30,7 +34,7 @@ h1{
     overflow: scroll;
     outline: 4px solid honeydew;
     width: 500px;
-    height: 250px;
+    height: 240px;
     /* margin-top: 5%; */
     margin-left: 50px;
 }
@@ -42,6 +46,9 @@ h1{
     width: 500px;
     margin-top: 5%;
     margin-left: 50px;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 20px;
 }
 .menu{
     background-color: white;
@@ -62,20 +69,23 @@ h1{
     font-size: 15px;
 }
 .div2 {
-    border: 1px solid;
-    width: 420px;
+    background-color: white;
+    /* border: 1px solid; */
+    width: 400px;
     height: 50px;
     font-size: large;
     border-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+    margin-left: 40px;
+}
 
-  .clicked {
-    background-color: gray;
-    color:white;
-  }
+.clicked {
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+
 input[type=text]{
     border: none;
     /* border-radius:5px; */

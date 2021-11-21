@@ -15,8 +15,8 @@ const wordinput5 = document.querySelector('.word-input5');
 
 const howDisplay=document.querySelector('.how');
 const hey=document.querySelector('.hey');
+const goal=document.querySelector('.goal');
 
-let score = 0;
 let words = ["int a = 10", 
 "int b = 20", 
 "int c = 30", 
@@ -26,6 +26,16 @@ let x = 0;
 testChange(x);
 let nana = words.length;
 
+let i = 0;
+let y = "";
+let start=Date.now(), end = Date.now();
+let hey_1 = 100;
+let tasu= 0;
+let goal_1 = 0;
+if(localStorage.getItem('goal')){
+    goal_1 = localStorage.getItem("goal");
+}
+goal.innerText = goal_1;
 function testChange(x){
     if(words[x]!=undefined)
         wordDisplay1.innerText = words[x];
@@ -37,16 +47,11 @@ function testChange(x){
         wordDisplay4.innerText = words[x+3];
     if(words[x+4]!=undefined)
         wordDisplay5.innerText = words[x+4];
+    wordinput1.focus();
 }
 
 
-let i = 0;
-let y = "";
-let total = 0;
-let start=Date.now(), end = Date.now();
-let hey_1 = 100;
-let go = ""
-let tasu= 0;
+
 function a(){
     i++;
     end = Date.now(); //시간 끝
@@ -55,13 +60,16 @@ function a(){
 
 
 wordinput1.oninput = function() {
+    wordinput1.getElementsByClassName.color = "black";
     let go = wordinput1.value;
     y = (go||"").split("");
 if(y[i] == words[x][i]){
     a(i);
+    wordinput1.style.color = "#000000";
 }else{
     if(y[i]!='Backspace'){
         hey.innerText = --hey_1;
+        wordinput1.style.color = "#ff0000";
     }
 }
 if(i==words[x].length){
@@ -81,8 +89,10 @@ if(i==words[x].length){
             y = go.split("");
         if(y[i] == words[x+1][i]){
             a(i);
+            wordinput2.style.color = "#000000";
         }else{
             hey.innerText = --hey_1;
+            wordinput2.style.color = "#ff0000";
         }
         if(i==words[x+1].length){
             if(words[x+2]!=undefined)
@@ -101,8 +111,10 @@ if(i==words[x].length){
             y = go.split("");
         if(y[i] == words[x+2][i]){
            a(i);
+           wordinput3.style.color = "#000000";
         }else{
             hey.innerText = --hey_1;
+            wordinput3.style.color = "#ff0000";
         }
         if(i==words[x+2].length){
             if(words[x+3]!=undefined)
@@ -120,8 +132,10 @@ if(i==words[x].length){
             y = go.split("");
         if(y[i] == words[x+3][i]){
             a(i);
+            wordinput4.style.color = "#000000";
         }else{
             hey.innerText = --hey_1;
+            wordinput4.style.color = "#ff0000";
         }
         if(i==words[x+3].length){
             if(words[x+4]!=undefined)
@@ -138,8 +152,10 @@ if(i==words[x].length){
             y = go.split("");
         if(y[i] == words[x+4][i]){
             a(i);
+            wordinput5.style.color = "#000000";
         }else{
             hey.innerText = --hey_1;
+            wordinput5.style.color = "#ff0000";
         }
         if(i==words[x+4].length){
             wordinput1.value = "";//초기화
