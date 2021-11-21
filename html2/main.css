@@ -1,0 +1,102 @@
+body{
+    background-image: url("../images/js배경1.png");
+    background-size: 1600px 720px; 
+    background-repeat: no-repeat; /*이미지 반복 X*/
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    text-align: center;
+    font-family: 'yg-jalnan';
+    font-size: 50px;
+    margin-top: 60px;
+    color: #D7818A;
+    text-shadow: #484A46 0px 0px,#484A46 -0px 0px,#484A46 -1px 1px,#484A46 -2px 2px,#484A46 -3px 3px,#484A46 -4px 4px, 
+    #484A46 -5px 5px,#484A46 -6px 6px,#484A46 -7px 7px,#484A46 -8px 8px,#484A46 -9px 9px,#484A46 -10px 10px,
+    #484A46 -11px 11px,#484A46 -12px 12px,#484A46 -13px 13px,#484A46 -14px 14px,#484A46 -15px 15px,
+    #484A46 -16px 16px,#484A46 -17px 17px,#484A46 -18px 18px,#484A46 -19px 19px,#484A46 -20px 20px;
+    
+}
+.box{
+    background-color: rgba(130, 187, 240, 0.932);
+    width: 600px;
+    height: 400px;
+    outline: 4px solid honeydew;
+    /*z-index:1;*/
+    margin-top: 100px;
+    margin-left: 30%;
+}
+.box2{
+    overflow: scroll;
+    outline: 4px solid honeydew;
+    width: 500px;
+    height: 240px;
+    /* margin-top: 5%; */
+    margin-left: 50px;
+}
+#codetitle{
+    outline: 4px solid honeydew;
+    text-align: center;
+    color:white;
+    height: 30px;
+    width: 500px;
+    margin-top: 5%;
+    margin-left: 50px;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 20px;
+}
+.menu{
+    background-color: white;
+    border-radius : 30px 30px 30px 30px;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    display:inline-block;
+    position:relative;
+    left : 130px;
+    top : 20px;
+}
+#Button{
+    background-color: rgba(197, 100, 197, 0.877);
+    border-color: whitesmoke;
+    top: 15px;
+    color:white;
+    font-size: 15px;
+}
+.div2 {
+    background-color: white;
+    /* border: 1px solid; */
+    width: 400px;
+    height: 50px;
+    font-size: large;
+    border-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.clicked {
+    background-color: rgb(194, 194, 194);
+    color: black;
+}
+
+input[type=text]{
+    border: none;
+    /* border-radius:5px; */
+    width: 50px;
+    font-size: 120%;
+    /*background-color: red;*/
+}
+ul{
+    list-style: none;
+}
+.div1 {
+    padding: 5px 0px 5px 5px;
+    font-size: 12px;
+}
