@@ -1,0 +1,156 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    font-family: sans-serif;
+    text-align:center;
+    background-image: url("../images/배경_낮.png");
+    background-size: cover;
+}
+/*h1*/
+/* html, body { height: 100px; } */
+@import url(https://fonts.googleapis.com/css?family=Signika:700,300,600);
+    h1 {
+        /* font:bold 7.5vw/1.6 'Signika', sans-serif;
+        user-select:none; */
+    }
+
+    h1 span {
+        /* margin-top: 400px;  */
+        font-size: 70px;
+        display:inline-block; 
+        animation:float .2s ease-in-out infinite; 
+    }
+    @keyframes float {
+    0%,100%{ transform:none; }
+    33%{ transform:translateY(-1px) rotate(-2deg); }
+    66%{ transform:translateY(1px) rotate(2deg); }
+    }
+    body:hover .title { animation:bounce .6s; }
+    @keyframes bounce {
+    0%,100%{ transform:translate(0); }
+    25%{ transform:rotateX(20deg) translateY(2px) rotate(-3deg); }
+    50%{ transform:translateY(-20px) rotate(3deg) scale(1.1);  }
+    }
+
+    .title:nth-child(4n) { color:hsl(50, 75%, 55%); text-shadow:1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%), 3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%); }
+    .title:nth-child(4n-1) { color:hsl(135, 35%, 55%); text-shadow:1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%), 3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%); }
+    .title:nth-child(4n-2) { color:hsl(155, 35%, 60%); text-shadow:1px 1px hsl(155, 25%, 50%), 2px 2px hsl(155, 25%, 50%), 3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%); }
+    .title:nth-child(4n-3) { color:hsl(30, 65%, 60%); text-shadow:1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%), 3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%); }
+
+    h1 span:nth-child(2){ animation-delay:.05s; }
+    h1 span:nth-child(3){ animation-delay:.1s; }
+    h1 span:nth-child(4){ animation-delay:.15s; }
+    h1 span:nth-child(5){ animation-delay:.2s; }
+    h1 span:nth-child(6){ animation-delay:.25s; }
+    h1 span:nth-child(7){ animation-delay:.3s; }
+    h1 span:nth-child(8){ animation-delay:.35s; }
+    h1 span:nth-child(9){ animation-delay:.4s; }
+    h1 span:nth-child(10){ animation-delay:.45s; }
+    h1 span:nth-child(11){ animation-delay:.5s; }
+    h1 span:nth-child(12){ animation-delay:.55s; }
+    h1 span:nth-child(13){ animation-delay:.6s; }
+    h1 span:nth-child(14){ animation-delay:.65s; }
+/*h1*/
+/*h1폰트*/
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+p {
+    position: absolute;
+    left: 50px;
+    top : -10px;
+    color:white;
+    display:inline;
+    font-family: 'yg-jalnan';
+    color: #D7818A;
+    text-shadow: #484A46 0px 0px,#484A46 -0px 0px,#484A46 -1px 1px,#484A46 -2px 2px,#484A46 -3px 3px,#484A46 -4px 4px, 
+    #484A46 -5px 5px,#484A46 -6px 6px,#484A46 -7px 7px,#484A46 -8px 8px,#484A46 -9px 9px,#484A46 -10px 10px;
+    font-size: 30px;
+}
+a {
+    /* text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #D7818A; */
+    text-decoration: none
+}
+ul
+{
+    position: relative;
+    width: 450px;
+    margin: 20px auto 0;
+    padding: 10px;
+    box-sizing: border-box;
+    /* background-color: rgba(0, 0, 0, .1); */
+    background: green;
+    box-shadow: inset 0 0 15px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 18px;
+}
+ul li{
+    display: flex;
+    background-color: rgba(225, 225, 225, .1);
+    padding: 10px 20px;
+    color: #fff;
+    margin: 5px 0;
+    transition: .5s;
+}
+ul li:nth-child(1)
+{
+    background-color: rgba(225, 225, 225, .6);
+}
+ul li:nth-child(2)
+{
+    background-color: rgba(225, 225, 225, .6);
+}
+ul li:nth-child(3)
+{
+    background-color: rgba(225, 225, 225, .4);
+}
+ul li:nth-child(4)
+{
+    background-color: rgba(225, 225, 225, .4);
+}
+ul li:nth-child(5)
+{
+    background-color: rgba(225, 225, 225, .2);
+}
+ul li:nth-child(6)
+{
+    background-color: rgba(225, 225, 225, .2);
+}
+ul li:nth-child(7)
+{
+    background-color: rgba(225, 225, 225, .2);
+}
+ul li:nth-child(8)
+{
+    background-color: rgba(225, 225, 225, .2);
+}
+ul li span:nth-child(1)
+{
+    width: 30px;
+}
+ul li span:nth-child(2)
+{
+    width: 200px;
+}
+ul li span:nth-child(3)
+{
+    width: 100px;
+    text-align: right;
+}
+ul li span:nth-child(4)
+{
+    width: 70px;
+    text-align: right;
+}
+ul li:hover
+{
+    transform:scale(1.06);
+    background-color: green;
+}
