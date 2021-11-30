@@ -292,7 +292,7 @@ input:focus { background:rgb(250, 217, 157); }
 }
 
 let cnt = 1;
-let audio123 = new Audio("../Asteria-13-Memory Of Kritias.mp3");
+let audio123 = new Audio("Asteria-13-Memory Of Kritias.mp3");
 audio123.volume = 0.3;
 audio123.loop = true;
 if(localStorage.getItem('cnt')){
