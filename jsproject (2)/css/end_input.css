@@ -1,0 +1,153 @@
+a{
+    text-decoration: none;
+}
+    .back{
+        background-size: cover;
+    }
+    .back::after {
+        content: "";
+        background-image: url("../images/배경_낮.png");
+        background-size: cover;
+        opacity: 0.5 !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .back p{
+        /* color: rgb(121, 68, 219); */
+        text-align: center;
+        /* margin-top: 180px; */
+        position: relative;
+    }
+
+    .main {
+        background-color: #FFFFFF;
+        width: 400px;
+        height: 500px;
+        margin: 6em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+    }
+    
+    .title {
+        font-family: 'yg-jalnan';
+        padding-top: 40px;
+        color: #8C55AA;
+        /* font-family: 'Ubuntu', sans-serif; */
+        font-weight: bold;
+        font-size: 23px;
+    }
+    @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Cafe24Shiningstar';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Cafe24Oneprettynight';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .text1{
+        position: absolute;
+        top: 10px;
+        left: 25px;
+        font-size: 17px;
+        color: rgb(38, 50, 56);
+        font-weight: 500;
+        font-family: 'Cafe24Shiningstar';
+    }
+    .text{
+        font-family: 'Cafe24Oneprettynight';
+        position: absolute;
+        top: -10px;
+        color: rgb(38, 50, 56);
+        font-weight: 700;
+        font-size: 25px;
+        border-radius: 20px;
+        border: 2px solid rgba(0, 0, 0, 0.02);
+    }
+    .un {
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 1px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    margin-bottom: 27px;
+    font-family: 'Cafe24Oneprettynight';
+    }
+    
+    form.form1 {
+        padding-top: 10px;
+    }
+   
+    .un:focus, .pass:focus {
+        border: 2px solid rgba(0, 0, 0, 0.18) !important;
+        
+    }
+    
+    .submit {
+      /* cursor: pointer; */
+      flex-direction: column;
+        border-radius: 5em;
+        color: #fff;
+        background: linear-gradient(to right, blue, pink);
+        border: 0;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-family: 'Cafe24Oneprettynight';
+        margin-left: 32%;
+        font-size: 23px;
+
+        box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    }
+    #btn1{
+        position: absolute;
+        margin-top: 60px;
+        left: 200px;
+    }
+    #btn2{
+        position: absolute;
+        margin-top: 110px;
+        left: 200px;
+    }
+    #btn3{
+        position: absolute;
+        margin-top: 160px;
+        left: 200px;
+    }
+    a {
+        text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+        color: #E1BEE7;
+        text-decoration: none;
+        margin: 50px;
+    }
+    
+    @media (max-width: 600px) {
+        .main {
+            border-radius: 0px;
+            margin: 50px;
+        }
+    }

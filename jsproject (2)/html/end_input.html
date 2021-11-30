@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/end_input.css" />
+    <title>게임종료</title>
+</head>
+<body>
+    <!-- <div class="back">
+        <div class="modal">
+            <p class="message">ending</p>
+            <p class="message">점수 <span class="score">0</span></p>
+            <p class="message">평균 타수 <span class="tasu">0</span></p>
+            <div class="message">
+                닉네임 입력 : <input type="text" id = "nickname">
+                <button onclick="enter()">입력완료</button>
+            </div>
+            <div class="options">
+                <a href="main.html"></a><button class="btn">돌아가기</button>
+                <a href="Ranking.html"><button class="btn">랭킹보기</button></a>
+            </div>
+        </div>
+    </div> -->
+    <div class="back">
+        <div class="main">
+            <p class="title" align ="center">빨간모자의 타자 탈출기</p>
+            <form class="form1">
+                <p class="text1"><span>타수</span> + <span class=>점수</span></p>
+              <p class="text">총 점수 : <span class="score">0</span> + <span class="tasu">0</span> = <span class="total">0</span></p>
+              <p class="text">오타 문장 : <span class="ota">0</span></p>
+              <input class="un" id = "nickname" type="text" align="center" placeholder="5글자 이내 nickname" maxlength='5' autocomplete="off" >
+              <!-- <button class="submit" align="center" onclick="enter()">입력완료</button> -->
+              <a class="submit" id="btn1" align="center" onclick="enter()">입력완료</a>
+              <a class="submit" id="btn2" href="../html/index.html">돌아가기</a>
+              <a class="submit" id="btn3" href="../html/Ranking.html">랭킹보기</a>
+            </div>
+    </div>
+    <script src = "../js/end_input.js"></script>
+</body>
+</html>

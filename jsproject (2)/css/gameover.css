@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    background-image: url("../images/배경_밤.png");
+    background-size: cover;
+    height: 90vh;
+    background-repeat: no-repeat; /*이미지 반복 X*/
+}
+
+#img{
+    width: 700px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+#img2{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 200px;
+    height: 40%;
+}
+.box{
+    left:0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 230px;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: #ffff;
+    font-size: 30px;
+}
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+Result Skip Results Iframe
+EDIT ON
+.text_box{
+    height: 250px;
+    font-size: 2rem;
+    text-align: center;
+}
+.text{
+    font-family: 'Cafe24Ssurround';
+    position: absolute;
+    left: 150px;
+    top: 20px;
+}
+#next{
+    font-family: 'Cafe24Ssurround';
+    font-size: 30px;
+    position: absolute;
+    right: 200px;
+    text-decoration: none;
+    color: white;
+    bottom: 30px;
+}
+#next2{
+    font-family: 'Cafe24Ssurround';
+    font-size: 30px;
+    position: absolute;
+    right: 70px;
+    text-decoration: none;
+    color: white;
+    bottom: 30px;
+}

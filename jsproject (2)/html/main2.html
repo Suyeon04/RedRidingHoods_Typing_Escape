@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타자게임실행화면</title>
+    <link rel="stylesheet" href="../css/main2.css" />
+</head>
+<body id="backimg">
+    <h1>빨간모자의 타자 탈출기</h1>
+    <div class="menu" id="goal">
+        <p>목표 타수 : <span class="goal">100</span></p>
+    </div>
+    <div class="menu">
+        <p>오류 문장 : <span class="hey">0</span></p>
+    </div>
+    <div class="menu">
+        <p>현재 타수 : <span class="how">0</span></p>
+    </div>
+    <a href="index.html"><button class="backbtn">돌아가기</button></a>
+    <img src="../images/true.png" id="musicbtn" onclick="imgbtn()">
+    <div id="myProgress">
+        <div id="myBar">0점</div>
+        <div id="myBar1"></div>
+    </div>
+    <img id="wolf" src="../images/늑대.png">
+    <img id = "tree" src="../images/빨간모자.png">
+    <img id = "Grandma" src="../images/할머니.png">
+    <!-- <button onclick="move()">click</button> -->
+    
+    <div class="box"><!--없으면 안됨!!-->
+        <div class="box1">
+            <div class="text" id="t1">
+                <!--타자 글자-->
+            </div>
+            <div class="intext" id="t2">
+                <input type="text" class="word-input1" spellcheck="false">
+            </div>
+
+            <div class="text" id="t3">
+                <!--타자 글자-->
+            </div>
+            <div class="intext" id="t4">
+                <input type="text" class="word-input2" spellcheck="false">
+            </div>
+
+            <div class="text" id="t5">
+                <!--타자 글자-->
+            </div>
+            <div class="intext" id="t6">
+                <input type="text" class="word-input3" spellcheck="false">
+            </div>
+
+            <div class="text" id="t7">
+                <!--타자 글자-->
+            </div>
+            <div class="intext" id="t8">
+                <input type="text" class="word-input4" spellcheck="false">
+            </div>
+
+            <div class="text" id="t9">
+                <!--타자 글자-->
+            </div>
+            <div class="intext" id="t10">
+                <input type="text" class="word-input5" spellcheck="false">
+            </div>
+        </div>
+    </div>
+    <script src='../js/main.js'></script>
+</body>
+</html>
