@@ -331,7 +331,7 @@ function start()  {
     let x = real_choice.split('\n');
     localStorage.setItem("words",JSON.stringify(x));
     /*다른화면으로 넣어가는 부분 */
-    location.replace('html/ready.html');
+    location.replace('./html/ready.html');
   }
 }
 init();
