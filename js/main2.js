@@ -303,11 +303,11 @@ if(localStorage.getItem('cnt')){
 
 function imgbtn(){
   if(cnt%2==1){
-    document.getElementById("musicbtn").src="../images/false.png";
+    document.getElementById("musicbtn").src="images/false.png";
     cnt = 1;
     audio123.pause();
   }else{
-    document.getElementById("musicbtn").src="../images/true.png";
+    document.getElementById("musicbtn").src="images/true.png";
     cnt = 0;
     audio123.play();
   }
