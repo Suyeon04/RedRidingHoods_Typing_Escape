@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url("images/배경_낮.png");
+    background-image: url("../images/배경_낮.png");
     background-size: cover;
     height: 90vh;
     background-repeat: no-repeat; /*이미지 반복 X*/
