@@ -6,7 +6,6 @@ let goal_1 = 0;
 let real_choice = 0;
 
 
-
 function handleClick(event) {
   console.log(event.target);
   console.log(event.target.classList);
@@ -39,10 +38,11 @@ function choice(value){
   switch(value){
     case '1': 
       real_choice= 
+       /*
 `asdf asdf
 nanananana
 12345678`
-      /*
+*/   
 `let room = {
 number: 23 };
 let meetup = {
@@ -53,7 +53,7 @@ room.occupiedBy = meetup;
 meetup.self = meetup;
 alert( JSON.stringify(meetup, function replacer(key, value) {
 return (key != "" && value == meetup) ? undefined : value;
-}));`*/
+}));`
       break;
     case '2':
       real_choice=
