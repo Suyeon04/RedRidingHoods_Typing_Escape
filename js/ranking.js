@@ -15,13 +15,13 @@ if(localStorage.getItem('score')){
 if(localStorage.getItem('grade')){
     grade_1 = JSON.parse(localStorage.getItem("grade"));
 }else{
-    grade_1 = [100,90,80,70,60,50,40,30,20,10];
+    grade_1 = [0,0,0,0,0,0,0,0,0,0];
 }if(localStorage.getItem('nickname')){
     nickname_1 = JSON.parse(localStorage.getItem("nickname"));
 }if(localStorage.getItem('names')){
     names_1 = JSON.parse(localStorage.getItem("names"));
 }else{
-    names_1 = ["안녕","나는","박수연","입니다","내 말", "들리냐", "안들려","??","들리면","고개 끄덕"];
+    names_1 = ["--","--","--","--","--", "--", "--","--","--","--"];
 }
 history.pushState(null, null, location.href);
     window.onpopstate = function () {
