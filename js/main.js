@@ -153,18 +153,20 @@ function changePosition(x,go,tasu){
           if (width>=w) {
             clearInterval(id);
             position = 0;
+            score+=2;
           } 
           else {
                 width++;
                 width1--;
                 chaPos+=10.5;
-              }
-              score+=2;
+                score+=2;
+                }
             }
         else{
           if (width1>=w1) {
             clearInterval(id);
             position = 0;
+            score-=2;
           } 
           else {
                 width--;
