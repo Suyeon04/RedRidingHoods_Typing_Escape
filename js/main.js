@@ -158,8 +158,8 @@ function changePosition(x,go,tasu){
                 width++;
                 width1--;
                 chaPos+=10.5;
-                score+=2;
               }
+              score+=2;
             }
         else{
           if (width1>=w1) {
@@ -171,8 +171,8 @@ function changePosition(x,go,tasu){
                 width1++;
                 chaPos-=11.5;
                 score-=2;
-              }
             }
+        }
             if(width>width1){
                 elem.innerHTML = score+ "점";
                 elem1.innerHTML = '';
