@@ -153,7 +153,6 @@ function changePosition(x,go,tasu){
           if (width>=w) {
             clearInterval(id);
             position = 0;
-            score+=2;
           } 
           else {
                 width++;
@@ -166,7 +165,6 @@ function changePosition(x,go,tasu){
           if (width1>=w1) {
             clearInterval(id);
             position = 0;
-            score-=2;
           } 
           else {
                 width--;
