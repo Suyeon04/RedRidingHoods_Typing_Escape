@@ -12,7 +12,6 @@ function handleClick(event) {
 
   if (event.target.classList[1] === "clicked") {
     event.target.classList.remove("clicked");
-    
   } else {
     for (let i = 0; i < div2.length; i++) {
       div2[i].classList.remove("clicked");
@@ -38,22 +37,10 @@ function choice(value){
   switch(value){
     case '1': 
       real_choice= 
-       /*
+       
 `asdf asdf
 nanananana
 12345678`
-*/   
-`let room = {
-number: 23 };
-let meetup = {
-title: "Conference",
-occupiedBy: [{name: "John"}, {name: "Alice"}],
-place: room };
-room.occupiedBy = meetup;
-meetup.self = meetup;
-alert( JSON.stringify(meetup, function replacer(key, value) {
-return (key != "" && value == meetup) ? undefined : value;
-}));`
       break;
     case '2':
       real_choice=
