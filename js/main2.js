@@ -23,7 +23,7 @@ function handleClick(event) {
 }
 
 function init() {
-  for (var i = 0; i < div2.length; i++) {
+  for (let i = 0; i < div2.length; i++) {
     div2[i].addEventListener("click", handleClick);
   }
 }
@@ -317,7 +317,7 @@ function start()  {
     localStorage.setItem("goal",goal_1);
     let x = real_choice.split('\n');
     localStorage.setItem("words",JSON.stringify(x));
-    /*다른화면으로 넣어가는 부분 */
+    /*다른화면으로 넘어가는 부분 */
     location.replace('./html/ready.html');
   }
 }
