@@ -37,7 +37,6 @@ function choice(value){
   switch(value){
     case '1': 
       real_choice= 
-       
 `asdf asdf
 nanananana
 12345678`
