@@ -1,4 +1,4 @@
-# RedRidingHoods_Typing_Escape🪆
+# RedRidingHoods_Typing_Escape🐺
 
 >  빨간모자의 코딩 타자 게임은 유저들이 이전 타자 게임보다 재밌게 코딩 타자연습을 할 수 있게 하기 위해 제작한 게임입니다. 
 * 개발 기간 : 2021.11.1 ~ 2021.11.30 (약 한달)
