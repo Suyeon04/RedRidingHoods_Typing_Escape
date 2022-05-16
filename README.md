@@ -25,7 +25,8 @@
 * DEVELOPER
   * 박수연 - [s2026@e-mirim.hs.kr], [https://github.com/Suyeon04]
   * 유현아 - [s2012@e-mirim.hs.kr], [https://github.com/yuhyna108]
-  
+* DESIGNER
+  * 이하나 - [d2034@e-mirim.hs.kr], [https://github.com/hn1028]
   
   
   
