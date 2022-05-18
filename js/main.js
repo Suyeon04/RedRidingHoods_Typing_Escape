@@ -32,13 +32,17 @@ let goal_1 = 0;
 let width = 50;
 let width1 = 50;
 
+
 if(localStorage.getItem('goal')){
     goal_1 = localStorage.getItem("goal");
+    //목표 타수 갖고 오기
 }
 if(localStorage.getItem('words')){
     words = JSON.parse(localStorage.getItem("words"));
+    //타자버전 갖고 오기
     for(let i = 0; i<words.length;i++)
         words[i].trim();
+    //타자 앞 뒤에 생긴 공백 없애기
 }
 
 let cnt = 1;

@@ -314,10 +314,13 @@ function start()  {
   else{
     choice(value);
     localStorage.setItem("goal",goal_1);
+    //목표 타수 main.js로 값 넘기기
     let x = real_choice.split('\n');
+    //한줄씩 배열에 넣어주기
     localStorage.setItem("words",JSON.stringify(x));
-    /*다른화면으로 넘어가는 부분 */
+    //타자버전 json으로 main.js로 값 넘기기
     location.replace('./html/ready.html');
+    /*다른화면으로 넘어가는 부분 */
   }
 }
 init();
